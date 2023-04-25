@@ -20,3 +20,8 @@ Contents
 
    usage
    api
+
+New Added Section
+#################
+
+Lumache has its documentation hosted on Read the Docs.
