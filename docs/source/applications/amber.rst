@@ -13,13 +13,9 @@ This will make the AMBER tools and executables available for use on the cluster.
 
 AMBER includes several executables that are commonly used for molecular dynamics 
 simulations. Some of the most frequently used executables include:
-* `sander`: The main molecular dynamics engine used in AMBER, which can perform energy 
-            minimization, equilibrium simulations, and production runs.
-* `pmemd`: An optimized version of sander that can run on GPUs, which can significantly 
-           accelerate molecular dynamics simulations.
-* `cpptraj`: A utility that can perform a variety of tasks related to analyzing and processing 
-             the output from AMBER simulations, such as calculating RMSDs, extracting specific frames 
-             from a trajectory, and generating input files for other programs.
+* `sander`: The main molecular dynamics engine used in AMBER, which can perform energy minimization, equilibrium simulations, and production runs.
+* `pmemd`: An optimized version of sander that can run on GPUs, which can significantly accelerate molecular dynamics simulations.
+* `cpptraj`: A utility that can perform a variety of tasks related to analyzing and processing the output from AMBER simulations, such as calculating RMSDs, extracting specific frames from a trajectory, and generating input files for other programs.
 
 Running AMBER jobs
 ------------------
