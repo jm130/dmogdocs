@@ -42,8 +42,6 @@ An example job script for AMBER would be:
    # Run the Amber simulation
    srun --mpi=pmi2 $AMBERHOME/bin/pmemd.MPI -O -i input.in -o output.out -p prmtop -c inpcrd -r output.rst
    
-   code
-   
 In this script, the job is named "amber" and will run on a single node with 32 tasks (processes) 
 per node, using 1 CPU per task. The requested memory is 128GB and the job has a maximum runtime of 1 hour. 
 The "nodes" partition is specified.
