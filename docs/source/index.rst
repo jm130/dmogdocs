@@ -27,7 +27,7 @@ Contents
    
 .. toctree::
    :maxdepth: 2
-   :captopm: Applications
+   :caption: Applications
    
    applications/amber.rst
    application/matlab.rst
