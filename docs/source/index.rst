@@ -21,6 +21,7 @@ Contents
 .. toctree::
    :maxdepth: 2
    :caption: DMOG User Guide
+   
    policy/generaluse
    techspecs/hardware
    
