@@ -1,13 +1,14 @@
-Welcome to Lumache's documentation!
+DMOG User Guide
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Welcome to the DMOG High-Performance Computing (HPC) facility! 
+This guide is designed to help users access and utilize the system effectively. 
+Whether you're a researcher, student, or staff member, the DMOG HPC facility can 
+provide significant computing resources to support your work. This guide covers 
+essential topics for using the facility, including system access, data storage, 
+job submission, program compilation, and environment management. 
+By following these guidelines, you can make the most of the DMOG HPC facility and 
+achieve optimal performance for your computing needs.
 
 .. note::
 
@@ -17,11 +18,13 @@ Contents
 --------
 
 .. toctree::
+   :maxdepth: 2
+   :caption: DMOG User Guide
+   policy/generaluse
+   techspecs/hardware
+   
+   
 
-   usage
-   api
+  
 
-New Added Section
-#################
 
-Lumache has its documentation hosted on Read the Docs.
