@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'DMOG docs'
+copyright = '2023, Jose M Menendez'
+author = 'Jose M Menendez'
 
 release = '0.1'
 version = '0.1.0'
