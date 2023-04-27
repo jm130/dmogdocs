@@ -46,10 +46,10 @@ cluster that are presented as NFS exports. These volumes are intended for
 specific use cases, such as software installations or backups, and are not part 
 of the Lustre file system:
 
-`/mnt/data/`: 30TB
-`/users/`: 12TB of shared space for home directories
-`/mnt/scratch/`: 93TB of high read/write bandwidth for parallel calculations
-`/tmp/`: 1TB SSD locally attached to the node
+* `/mnt/data/`: 30TB
+* `/users/`: 12TB of shared space for home directories
+* `/mnt/scratch/`: 93TB of high read/write bandwidth for parallel calculations
+* `/tmp/`: 1TB SSD locally attached to the node
 
 Networking
 ----------
