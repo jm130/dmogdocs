@@ -25,6 +25,13 @@ Contents
    policy/generaluse
    techspecs/hardware
    
+.. toctree::
+   :maxdepth: 2
+   :captopm: Applications
+   
+   applications/amber.rst
+   application/matlab.rst
+   
    
 
   
