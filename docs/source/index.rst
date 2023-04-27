@@ -30,7 +30,7 @@ Contents
    :caption: Applications
    
    applications/amber.rst
-   application/matlab.rst
+   
    
    
 
