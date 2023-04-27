@@ -2,6 +2,7 @@ DMOG User Guide
 ===================================
 
 Welcome to the DMOG High-Performance Computing (HPC) facility! 
+
 This guide is designed to help users access and utilize the system effectively. 
 Whether you're a researcher, student, or staff member, the DMOG HPC facility can 
 provide significant computing resources to support your work. This guide covers 
