@@ -1,15 +1,21 @@
 DMOG User Guide
 ===================================
 
-Welcome to the DMOG High-Performance Computing (HPC) facility! 
+Welcome to the documentation page for DMOG, the new high-performance computing (HPC) 
+facility at Heriot-Watt University. DMOG is a state-of-the-art cluster that aligns 
+with the University Strategy 2025, which aims to support and enable world-leading research.
 
-This guide is designed to help users access and utilize the system effectively. 
-Whether you're a researcher, student, or staff member, the DMOG HPC facility can 
-provide significant computing resources to support your work. This guide covers 
-essential topics for using the facility, including system access, data storage, 
-job submission, program compilation, and environment management. 
-By following these guidelines, you can make the most of the DMOG HPC facility and 
-achieve optimal performance for your computing needs.
+The cluster is named after Dame Maria Ogilvie Gordona pioneering geologist who began her 
+scientific career at Heriot-Watt College in 1888. She was the first woman to receive a 
+Doctor of Science from UCL and a PhD from Munich University. Maria combined academic 
+research with married life and work for the Liberal Party and women’s action groups. 
+She won the Geological Society Lyell medal for research on plate tectonics and became a 
+Dame of the British Empire for her work for women’s rights.
+
+This documentation page serves as a comprehensive guide to using the DMOG cluster, 
+including information on accessing the system, submitting jobs, and utilizing the various 
+software packages and tools available. We hope you find this resource helpful in your 
+research endeavors.
 
 .. note::
 
