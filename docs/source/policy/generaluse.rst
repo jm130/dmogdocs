@@ -24,3 +24,34 @@ It is essential that all users of the facility adhere to the guidelines outlined
 The facility staff is available to provide support and assistance to users, and they can be contacted 
 if any issues or concerns arise. By working together and using the facility responsibly, we 
 can ensure that the facility remains a valuable resource for the research community.
+
+Access and Priorization
+=======================
+
+Access to the HPC cluster is granted to research staff and research students by default, 
+and is free at the point of use. To gain access, users are required to fill out a `TopDesk <https://google.com>`_ 
+form providing basic information about their research and the expected resource requirements. 
+The HPC team will review each application and grant access in a timely manner.
+
+For those with specific and/or time-sensitive research requirements, a paid priority access 
+service is available. This provides access to higher priority in the job queues.
+Please contact us for more information on this service.
+
+
+Job Quotas
+==========
+
+To ensure fair share of resources among the HPC user community, we have implemented 
+job quotas. These quotas are subject to review and may be adjusted as required. 
+The current job quotas are as follows:
+
+* maximum of 10 jobs running per user 
+* maximum of 60 jobs submitted per user (allowing up to 50 jobs to be held in a queued/pending state)
+* Maximum of 128 cores 
+* Maximum of 1006G RAM 
+* Maximum of 2 GPUs per user (minimum of 1 GPU per job)
+* Maximum runtime 7 days
+
+These quotas are designed to ensure that all users have a fair opportunity to access 
+the cluster resources. Users who require additional resources are encouraged to contact 
+the HPC team to discuss their requirements.
