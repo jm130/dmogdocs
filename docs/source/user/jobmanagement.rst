@@ -74,10 +74,33 @@ Where
    * - NODES
      - Number of nodes allocated to the job or the minimum number of nodes required by a pending job
    * - NODELIST(REASON)
+     - For pending jobs: Reason why pending. \n
+       For failed jobs: Reason why failed. \n
+       For all other job states: List of allocated nodes. See below for a list of the most common reason codes.\n
+       
+During its lifetime, a job passes through several states. The most common states are PENDING, RUNNING, 
+SUSPENDED, COMPLETING, and COMPLETED. Some other states are shown in the table below:   
+
+.. list-table:: 
+   :widths: 25 75
+
+   * - JOBID
+     - Job or step ID. For array jobs, the job ID format will be of the form <job_id>_<index>
+   * - PARTITION
+     - Partition of the job/step
+   * - NAME
+     - Name of the job/step
+   * - USER
+     - Owner of the job/step
+   * - ST
+     - State of the job/step. See below for a description of the most common states
+   * - TIME
+     - Time used by the job/step. Format is days-hours:minutes:seconds (days,hours only printed as needed)
+   * - NODES
+     - Number of nodes allocated to the job or the minimum number of nodes required by a pending job
+   * - NODELIST(REASON)
      - For pending jobs: Reason why pending. 
        For failed jobs: Reason why failed.
        For all other job states: List of allocated nodes. See below for a list of the most common reason codes.
-       
-   
 
      
