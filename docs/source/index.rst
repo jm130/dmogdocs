@@ -35,6 +35,7 @@ Contents
    user/techspecs
    user/openflighthpc
    user/jobmanagement
+   user/jobsubmission
    
 .. toctree::
    :maxdepth: 2
