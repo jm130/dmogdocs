@@ -33,7 +33,7 @@ Job queue states and reasons
 
 The ``squeue`` command allows users to view information about the state of a job. The default output format of the command is as follows:
 
-.. list-table:: Title
+.. list-table:: 
    :widths: 10 15 10 10 10 10 10 25
    :header-rows: 1
 
