@@ -74,9 +74,9 @@ Where
    * - NODES
      - Number of nodes allocated to the job or the minimum number of nodes required by a pending job
    * - NODELIST(REASON)
-     - For pending jobs: Reason why pending. \n
-       For failed jobs: Reason why failed. \n
-       For all other job states: List of allocated nodes. See below for a list of the most common reason codes.\n
+     - For pending jobs: Reason why pending. | 
+       For failed jobs: Reason why failed. |
+       For all other job states: List of allocated nodes. See below for a list of the most common reason codes.
        
 During its lifetime, a job passes through several states. The most common states are PENDING, RUNNING, 
 SUSPENDED, COMPLETING, and COMPLETED. Some other states are shown in the table below:   
