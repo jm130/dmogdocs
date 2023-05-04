@@ -35,15 +35,15 @@ Contents
    :maxdepth: 2
    :caption: Applications
    
-   applications/amber.rst
+   applications/amber
    
 .. toctree::
    :maxdepth: 2
    :caption: DMOG User Guide
    
-   admin/introduction.rst
-   admin/usepolicy.rst
-   admin/access.rst
+   admin/introduction
+   admin/usepolicy
+   admin/access
    admin/jobquotas
    
    
