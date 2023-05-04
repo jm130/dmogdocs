@@ -45,6 +45,13 @@ The ``squeue`` command allows users to view information about the state of a job
      - TIME
      - NODES
      - NODELIST(REASON)
-     
+   * - JOBID
+     - PARTITION
+     - NAME
+     - USER
+     - ST
+     - TIME
+     - NODES
+     - NODELIST(REASON)
    
 
