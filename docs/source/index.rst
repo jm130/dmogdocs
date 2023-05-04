@@ -32,6 +32,7 @@ Contents
    admin/usepolicy
    admin/access
    admin/jobquotas
+   user/techspecs
    
 .. toctree::
    :maxdepth: 2
