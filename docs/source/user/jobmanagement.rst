@@ -119,5 +119,5 @@ column of the ``squeue`` output. Some of the most common reasons are:
    * - JobLaunchFailure
      - The job could not be launched. This may be due to a file system problem, invalid program name, etc.
   
-For a complete list of job states codes and reasons, see `Job State Codes <https://slurm.schedmd.com/squeue.html#lbAG>` 
-and `Job Reasons <https://slurm.schedmd.com/squeue.html#lbAF>`   
+For a complete list of job states codes and reasons, see _`Job State Codes <https://slurm.schedmd.com/squeue.html#lbAG>`_ 
+and _`Job Reasons <https://slurm.schedmd.com/squeue.html#lbAF>`_   
