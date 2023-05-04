@@ -13,3 +13,9 @@ software into their environment without interfering with other users or the syst
 This makes it easy for users to work with different versions of the same software or to use different 
 software packages for different projects or workflows.
 
+.. note::
+
+   Please note that the easiest way to use modules is by activating the gridware user HPC 
+   environment (``flight env activate gridware``).
+   
+   
