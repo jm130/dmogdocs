@@ -65,4 +65,19 @@ Where
      - Partition of the job/step
    * - NAME
      - Name of the job/step
+   * - USER
+     - Owner of the job/step
+   * - ST
+     - State of the job/step. See below for a description of the most common states
+   * - TIME
+     - Time used by the job/step. Format is days-hours:minutes:seconds (days,hours only printed as needed)
+   * - NODES
+     - Number of nodes allocated to the job or the minimum number of nodes required by a pending job
+   * - NODELIST(REASON)
+     - For pending jobs: Reason why pending. 
+       For failed jobs: Reason why failed.
+       For all other job states: List of allocated nodes. See below for a list of the most common reason codes.
+       
+   
+
      
