@@ -37,6 +37,17 @@ Contents
    
    applications/amber.rst
    
+.. toctree::
+   :maxdepth: 2
+   :caption: DMOG User Guide
+   
+   admin/introduction.rst
+   admin/usepolicy.rst
+   admin/access.rst
+   admin/jobquotas
+   
+   
+   
    
    
 
