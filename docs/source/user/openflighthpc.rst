@@ -33,7 +33,7 @@ cluster by using these commands:
 *	``flight env deactivate``: This command is used to deactivate the currently active flight environment. Once deactivated, any commands you run will be executed outside of the selected environment.
 
 Remote desktop (flight desktop)
--------------------------------
+--------------------------------
 
 When working on interactive applications on an HPC cluster, it can often be difficult to test and fine-tune 
 your workflows, especially when you're working remotely. That's where Flight desktop comes in. By providing a 
