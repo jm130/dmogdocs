@@ -28,8 +28,10 @@ Contents
    :maxdepth: 2
    :caption: DMOG User Guide
    
-   policy/generaluse
-   techspecs/hardware
+   admin/introduction
+   admin/usepolicy
+   admin/access
+   admin/jobquotas
    
 .. toctree::
    :maxdepth: 2
@@ -37,14 +39,7 @@ Contents
    
    applications/amber
    
-.. toctree::
-   :maxdepth: 2
-   :caption: DMOG User Guide
-   
-   admin/introduction
-   admin/usepolicy
-   admin/access
-   admin/jobquotas
+
    
    
    
