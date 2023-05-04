@@ -33,25 +33,17 @@ Job queue states and reasons
 
 The ``squeue`` command allows users to view information about the state of a job. The default output format of the command is as follows:
 
-.. list-table:: title
-   :widths: 10 15 10 10 10 10 10 25
+.. list-table:: Title
+   :widths: 25 25 50
    :header-rows: 1
 
-   * - JOBID
-     - PARTITION
-     - NAME
-     - USER
-     - ST
-     - TIME
-     - NODES
-     - NODELIST(REASON)
-   * - JOBID
-     - PARTITION
-     - NAME
-     - USER
-     - ST
-     - TIME
-     - NODES
-     - NODELIST(REASON)
-   
+   * - Heading row 1, column 1
+     - Heading row 1, column 2
+     - Heading row 1, column 3
+   * - Row 1, column 1
+     -
+     - Row 1, column 3
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
 
