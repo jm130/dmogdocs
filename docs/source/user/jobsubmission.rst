@@ -14,8 +14,8 @@ which will override the ones embedded in the job script.
 
 Here are some examples of job submission scripts.
 
- Serial job
- ~~~~~~~~~~
+Serial job
+~~~~~~~~~~
 
 .. code-block:: bash
 
@@ -213,4 +213,91 @@ GPU job
    #SBATCH -p gpu
    
    ################# Part-2 Shell script ####################
+   #===============================
+   #  Activate Flight Environment
+   #-------------------------------
+   source "${flight_ROOT:-/opt/flight}"/etc/setup.sh
+   
+   #==============================
+   #  Activate Package Ecosystem
+   #------------------------------
+   # e.g.:
+   # Load the OpenMPI module for access to `mpirun` command
+   flight env activate gridware
+   module load mpi/openmpi
+   
+   if ! command -v mpirun &>/dev/null; then
+       echo "No mpirun command found, ensure that a version of MPI is installed and available in PATH" >&2
+       exit 1
+   fi
+      
+   #===========================
+   #  Create results directory
+   #---------------------------
+   RESULTS_DIR="$(pwd)/${SLURM_JOB_NAME}-outputs/${SLURM_JOB_ID}"
+   echo "Your results will be stored in: $RESULTS_DIR"
+   mkdir -p "$RESULTS_DIR"
+   
+   #===============================
+   #  Application launch commands
+   #-------------------------------
+   # Customize this section to suit your needs.
+   
+   echo "Executing job commands, current working directory is $(pwd)"
+   
+   # REPLACE THE FOLLOWING WITH YOUR APPLICATION COMMANDS
+   
+   echo "Hello, dmog" > $RESULTS_DIR/test.output
+   echo "This is an example job. It ran on `hostname -s` (as `whoami`)." >> $RESULTS_DIR/test.output
+   echo "I was allocated the following GPU devices: $CUDA_VISIBLE_DEVICES" >> $RESULTS_DIR/test.output
+   echo "Output file has been generated, please check $RESULTS_DIR/test.output"
+   
+Interactive Jobs
+================
+
+When debugging or developing code, interactive testing is often necessary. However, running interactive jobs 
+directly on the login node can cause overloading. It is recommended to run interactive jobs on the compute nodes 
+instead. This allows you to debug your code in the same environment that it will run in. 
+
+Resource allocation for interactive jobs is done through the command line.
+
+To start an interactive session on CPU node:
+
+.. code-block:: bash
+ 
+   srun --nodes=1 --ntasks-per-node=32 --mem=1024 --time=00:05:00 --partition=nodes --pty /usr/bin/bash 
+   
+On a GPU enabled node, the command is very similar:
+
+.. code-block:: bash
+
+   srun --nodes=1 --ntasks-per-node=32 --mem=1024 --time=00:05:00 --partition=gpu --gres:1 --pty /usr/bin/bash 
+
+Making dynamic jobs scripts
+===========================
+
+``Slurm`` provides several environment variables at runtime that can be used to create more dynamic submission scripts. 
+These variables can be used to specify the job name, set the number of nodes or tasks, and much more. 
+Here are some of the main environment variables that Slurm creates at runtime:
+
+* ``SLURM_JOB_NAME``: The name of the job
+* ``SLURM_JOB_ID``: The job ID number
+* ``SLURM_JOB_CPUS_PER_NODE``: The number of CPUs per node
+* ``SLURM_JOB_NODELIST``: The list of nodes allocated to the job
+* ``SLURM_ARRAY_TASK_ID``: The index of the job within an array job
+
+In addition, ``Slurm`` also supports using format characters in submission scripts to define directives. 
+These format characters can be used to dynamically specify options such as the output file name or the number 
+of nodes to use. Here are some of the most common format characters:
+
+*	``%j``: Job ID
+*	``%N``: Node name
+*	``%u``: User name
+*	``%a``: Array job ID
+*	``%A``: Array job ID range
+
+By using these environment variables and format characters, you can create more dynamic and flexible submission scripts 
+that can adapt to different job requirements. For example, you can use the ``%j`` format character to dynamically specify
+the output file name based on the job ID, or use the ``SLURM_JOB_CPUS_PER_NODE`` variable to dynamically set the number of CPUs to use.
+
 
