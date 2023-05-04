@@ -33,6 +33,7 @@ Contents
    admin/access
    admin/jobquotas
    user/techspecs
+   user/openflighthpc
    
 .. toctree::
    :maxdepth: 2
