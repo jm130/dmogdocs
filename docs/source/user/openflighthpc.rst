@@ -42,13 +42,13 @@ from your desktop or laptop computer as if they were running locally.
 
 Now, let's look at the pre-requisites for Windows, Mac, and Linux:
 
-*	Windows
+*	Windows:
    * VNC viewer: You will need to install a VNC viewer, such as TightVNC or RealVNC, to connect to your Flight Desktop session.
    * SSH client: You will need to install an SSH client, such as PuTTY, to connect to your HPC cluster account and launch Flight Desktop.
-* Mac
+* Mac:
    * VNC viewer: You can use the built-in Screen Sharing app on Mac to connect to your Flight Desktop session, or you can install a third-party VNC viewer such as RealVNC.
    * SSH client: The built-in Terminal app on Mac can be used as an SSH client to connect to your HPC cluster account and launch Flight Desktop.
-* Linux
+* Linux:
    * VNC viewer: You can install a VNC viewer, such as Remmina or TigerVNC, to connect to your Flight Desktop session.
    * SSH client: Most Linux distributions come with an SSH client pre-installed, so you should be able to use your system's built-in SSH client to connect to your HPC cluster account and launch Flight Desktop.
 
