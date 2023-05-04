@@ -189,4 +189,28 @@ Parallel (mpi) job
 GPU job
 ~~~~~~~
 
+.. code-block:: bash
+
+   #!/bin/bash -l
+
+   ################# Part-1 Slurm directives ####################
+   ## Working dir
+   #SBATCH -D /users/username
+   ## Environment variables
+   #SBATCH --export=ALL
+   ## Output and Error Files
+   #SBATCH -o job-%j.output
+   #SBATCH -e job-%j.error
+   ## Job name
+   #SBATCH -J gpu-test
+   ## Run time: "hours:minutes:seconds", "days-hours"
+   #SBATCH --time=00:05:00
+   ## Memory limit (in megabytes). Total --mem or amount per cpu --mem-per-cpu
+   #SBATCH --mem-per-cpu=1024
+   ## GPU requirements
+   #SBATCH --gres gpu:1
+   ## Specify partition
+   #SBATCH -p gpu
+   
+   ################# Part-2 Shell script ####################
 
