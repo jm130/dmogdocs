@@ -70,6 +70,7 @@ Shared memory job
 .. code-block:: bash
 
    #!/bin/bash -l
+   
    ################# Part-1 Slurm directives ####################
    ## Working dir
    #SBATCH -D /users/username
@@ -122,6 +123,7 @@ Parallel (mpi) job
 .. code-block:: bash
 
    #!/bin/bash -l
+   
    ################# Part-1 Slurm directives ####################
    ## Working dir
    #SBATCH -D /users/username
