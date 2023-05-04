@@ -54,4 +54,15 @@ The ``squeue`` command allows users to view information about the state of a job
      - jhkh
      - hjhkj
  
+Where
 
+.. list-table:: 
+   :widths: 25 75
+
+   * - JOBID
+     - Job or step ID. For array jobs, the job ID format will be of the form <job_id>_<index>
+   * - PARTITION
+     - Partition of the job/step
+   * - NAME
+     - Name of the job/step
+     
