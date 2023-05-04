@@ -52,3 +52,24 @@ Now, let's look at the pre-requisites for Windows, Mac, and Linux:
    * VNC viewer: You can install a VNC viewer, such as Remmina or TigerVNC, to connect to your Flight Desktop session.
    * SSH client: Most Linux distributions come with an SSH client pre-installed, so you should be able to use your system's built-in SSH client to connect to your HPC cluster account and launch Flight Desktop.
 
+To launch a flight desktop environment, follow these steps:
+
+#.	Log in to your HPC cluster account.
+#.	Open a terminal window and type ``flight desktop start <desktop-name>`` to launch ``Flight Desktop``. If you're unsure what name to use, you can find the list of available desktop sessions by typing ``flight desktop avail``.
+#.	Wait for the desktop environment to start up. Be patient, this may take a few minutes.
+#.	Once the desktop environment has started, you can connect to it using a ``VNC viewer``. The specific details for connecting to Flight Desktop will be shown on the screen once the desktop session is created and can be retrieved by using this command: ``flight desktop show <sessionid>``, where sessionid is the ID for the specific session.
+#.	Note that the desktop sessions are created on the login node, and they must be terminated manually by the user when they are no longer needed. To do so, you can use the ``flight desktop kill <sessionid>`` command. 
+
+For further information on using Flight Desktop, you can consult the online manual available through ``flight help desktop``.
+
+Disabling OpenFlightHPC
+-----------------------
+
+``OpenFlightHPC`` is a powerful tool for HPC users, but there may be situations where users want to disable it. 
+Some reasons for disabling ``OpenFlightHPC`` could include avoiding potential conflicts with other software installed 
+on the cluster, or simply not needing any of the features provided by ``OpenFlightHPC``.
+
+To disable ``OpenFlightHPC``, users can issue the ``flight stop`` command, which will stop any currently running 
+Flight services. Additionally, users can use the ``flight set always off`` command to disable Flight services 
+from starting up automatically in the future. It's important to note that these commands only affect 
+the user who issues them and not the entire cluster.
