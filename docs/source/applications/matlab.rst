@@ -14,7 +14,7 @@ research purposes. If you need to use MATLAB for other purposes, please contact
 ISHelp@hw.ac.uk for further guidance.
 
 Running MATLAB jobs
-===================
+-------------------
 
 To use MATLAB on the cluster, you need to load the MATLAB module first. 
 You can do this by running the following commands in your terminal:
