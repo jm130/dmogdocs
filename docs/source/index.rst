@@ -49,6 +49,7 @@ Contents
    :caption: Applications
    
    applications/amber
+   applications/matlab
    
 
    
