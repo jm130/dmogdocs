@@ -50,6 +50,7 @@ Contents
    
    applications/amber
    applications/matlab
+   applications/r
    
 
    
