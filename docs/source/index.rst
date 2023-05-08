@@ -37,11 +37,11 @@ Contents
    :maxdepth: 2
    :caption: Getting Started
    
+   user/connecting
    user/openflighthpc
    user/jobmanagement
    user/jobsubmission
    user/softwaremanagement
-   user/connecting
    
 .. toctree::
    :maxdepth: 2
