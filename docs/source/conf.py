@@ -31,10 +31,10 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
-html_logo = 'HWU_logo.svg'
+html_logo = '_static/HWU_logo.svg'
 html_theme_options = {
     'logo_only': True,
-    'display_version': False,
+    'display_version': True,
 }
 
 # -- Options for EPUB output
