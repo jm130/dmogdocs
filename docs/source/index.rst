@@ -26,7 +26,7 @@ Contents
 
 .. toctree::
    :maxdepth: 2
-   :caption: DMOG User Guide
+   :caption: User Guide
    
    admin/introduction
    admin/usepolicy
