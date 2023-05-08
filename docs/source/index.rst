@@ -37,6 +37,7 @@ Contents
    :maxdepth: 2
    :caption: Getting Started
    
+   user/datatransfer
    user/connecting
    user/openflighthpc
    user/jobmanagement
