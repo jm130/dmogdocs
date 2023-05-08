@@ -13,7 +13,7 @@ Using your favorite ssh-client, just type:
 
 .. code-block:: bash
 
-   $ ssh <username>@dmog.hw.ac.uk
+   ssh <username>@dmog.hw.ac.uk
 
 Note: the cluster is accessible within the University network. For remote access you need to log on 
 to the `University VPN <https://www.hw.ac.uk/uk/services/is/it-essentials/virtual-private-network-vpn.htm>`_  first.
