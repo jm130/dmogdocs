@@ -35,7 +35,7 @@ html_logo = '_static/HWU_logo.svg'
 html_theme_options = {
     'logo_only': False,
     'display_version': True,
-    'style_nav_header_background': '#edf0d5',
+    'style_nav_header_background': '#c2ddf0',
 }
 
 # -- Options for EPUB output
