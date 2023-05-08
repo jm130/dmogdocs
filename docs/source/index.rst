@@ -41,6 +41,7 @@ Contents
    user/jobmanagement
    user/jobsubmission
    user/softwaremanagement
+   user/connecting
    
 .. toctree::
    :maxdepth: 2
