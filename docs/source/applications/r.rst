@@ -32,6 +32,7 @@ required for your job. Here is an example job script:
    #SBATCH --time=01:00:00
    
    # Load the R module
+   flight env activate gridware
    module load R/4.1.0
    
    # Run the R script
@@ -58,6 +59,7 @@ To run R on the GPU queue, you need to use a different partition and request the
    #SBATCH --time=01:00:00
    
    # Load the R module
+   flight env activate gridware
    module load R/4.1.0
    
    # Run the R script
