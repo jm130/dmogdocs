@@ -37,9 +37,9 @@ The following table shows the different storage options that are currently avail
      - No
      - up to 1TB
      - No backup
- 
- File Transfer
- =============
+
+File Transfer
+=============
  
 The easiest way to transfer data from/to the cluster is to use one of the standard 
 programs based on the SSH protocol such us ``scp`` or ``rsync``.
