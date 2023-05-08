@@ -1,5 +1,5 @@
-What is R?
-==========
+R
+==
 
 R is a programming language and software environment used for statistical 
 computing and graphics. It provides a wide variety of statistical and graphical 
@@ -33,7 +33,7 @@ required for your job. Here is an example job script:
    
    # Load the R module
    flight env activate gridware
-   module load R/4.1.0
+   module load R/4.2.3
    
    # Run the R script
    Rscript my_R_script.R
@@ -60,7 +60,7 @@ To run R on the GPU queue, you need to use a different partition and request the
    
    # Load the R module
    flight env activate gridware
-   module load R/4.1.0
+   module load R/4.2.3
    
    # Run the R script
    Rscript my_R_script.R
@@ -72,14 +72,14 @@ The ``my_R_script.R`` file is the R script that you want to run.
 
 Here are a couple of simple R scripts that you can use to test your setup:
 
-** Example 1: Hello World
+**Example 1: Hello World**
 
 .. code-block:: bash
 
    # Print "Hello, world!" to the console
    cat("Hello, world!\n")
 
-** Example 2: Basic Data Analysis
+**Example 2: Basic Data Analysis**
 
 .. code-block:: bash
 
