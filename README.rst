@@ -1,9 +1,10 @@
-Template for the Read the Docs tutorial
-=======================================
+DMOG Documentation
+===================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Welcome to the documentation page for DMOG, the new high-performance computing (HPC) facility at Heriot-Watt University.
 
-Read the tutorial here:
+There is a rendered version of this documentation on ReadTheDocs:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+* `Web version <https://dmogdocs.readthedocs.io/en/latest/index.html>`_
+* `PDF version <https://dmogdocs.readthedocs.io/_/downloads/en/latest/pdf/>`_
+
