@@ -35,7 +35,7 @@ html_logo = '_static/HWU_logo.svg'
 html_theme_options = {
     'logo_only': False,
     'display_version': True,
-    'bgcolor': Yellow,
+    'relbarbgcolor': Yellow,
 }
 
 # -- Options for EPUB output
