@@ -32,7 +32,11 @@ Contents
    admin/usepolicy
    admin/access
    admin/jobquotas
-   user/techspecs
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Getting Started
+   
    user/openflighthpc
    user/jobmanagement
    user/jobsubmission
