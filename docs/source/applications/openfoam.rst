@@ -39,6 +39,8 @@ jobscripts to get you started:
 
 **Example 2: Running an OpenFOAM job on the "gpu" queue (using GPUs)**
 
+.. code-block:: bash
+
    #!/bin/bash
    #SBATCH --job-name=myOpenFOAMJob
    #SBATCH --nodes=1
