@@ -26,7 +26,7 @@ Contents
 
 .. toctree::
    :maxdepth: 2
-   :caption: User Guide
+   :caption: General Remarks
    
    admin/introduction
    admin/usepolicy
@@ -35,7 +35,7 @@ Contents
    
 .. toctree::
    :maxdepth: 2
-   :caption: Getting Started
+   :caption: User Guide
    
    user/connecting
    user/datatransfer
