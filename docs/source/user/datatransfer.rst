@@ -53,13 +53,13 @@ To copy data to the cluster:
 
 .. code-block:: bash
 
-   scp [options] /source/path/to/object <user>@domg.hw.ac.uk:/path/to/destination
+   scp [options] /source/path/to/object <user>@dmog.hw.ac.uk:/path/to/destination
 
 To copy data from the cluster:
 
 .. code-block:: bash
 
-   scp [options] <user>@domg.hw.ac.uk:/source/path/to/object /path/to/destination
+   scp [options] <user>@dmog.hw.ac.uk:/source/path/to/object /path/to/destination
    
 For a complete list of options available: ``man scp``
 
@@ -75,8 +75,8 @@ The syntax to copy files to/from the cluster:
 
 .. code-block:: 
 
-   rsync [options] /source/path/to/object <user>@domg.hw.ac.uk:/path/to/destination
-   rsync [options] <user>@domg.hw.ac.uk: /source/path/to/object /path/to/destination
+   rsync [options] /source/path/to/object <user>@dmog.hw.ac.uk:/path/to/destination
+   rsync [options] <user>@dmog.hw.ac.uk: /source/path/to/object /path/to/destination
 
 For a list of options: ``man rsync``
 
