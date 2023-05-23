@@ -50,9 +50,10 @@ Contents
    
    applications/amber
    applications/matlab
-   applications/r
    applications/openfoam
    applications/orca
+   applications/python
+   applications/r
    
 
    
