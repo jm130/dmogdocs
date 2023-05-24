@@ -19,7 +19,8 @@ research endeavors.
 
 .. note::
 
-   This project is under active development.
+   This project is under active development. If you wish to provide feedback, please contact
+   the support team at ishelp@hw.ac.uk.
 
 Contents
 --------
