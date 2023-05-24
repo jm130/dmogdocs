@@ -79,4 +79,36 @@ To use anaconda:
    module load app/<anaconda/anaconda3>
    
 Once the module is loaded, the same commands as for ``Conda`` apply to ``Anaconda``. 
-See :ref:`the Conda section<Conda>` for further details.
+
+The default environment is called ``base``. 
+You can use it to build your own custom workspace. The ``conda`` command enables you to list the
+currently installed packages, and also search and install new ones.
+
+.. code-block:: bash
+
+   conda list
+   conda search <packagename>
+   conda install <packagename>
+
+Alternatively, you can create new environment to suit your needs. For example to create a  
+new environment called "myenv" with a specific version of ``Python``:
+
+.. code-block:: bash
+
+   conda create --name myenv python=3.9
+   
+To navigate across the different ``Conda`` environment you can use:
+
+.. code-block:: bash
+
+   conda info --env
+   conda activate <name>
+   conda deactivate
+   
+If you prefer to search and install packages using ``pip``, you can also use
+
+.. code-block:: bash
+
+   pip list
+   pip search <packagename>
+   pip install <packagename>
