@@ -31,7 +31,7 @@ GPU compute nodes
 -----------------
 
 The DMOG HPC cluster includes 10 compute nodes equipped with GPU cards. 
-Each node is equipped with 2 Nvidia A40 cards, 2 32-core AMD EPYC 7543 32-Core Processor, 
+Each node is equipped with 2 Nvidia A40 (48GB) cards, 2 32-core AMD EPYC 7543 32-Core Processor, 
 and 256GB of RAM. These nodes are well-suited for workloads that require significant parallel 
 computing resources, such as deep learning, or artificial intelligence.
 
