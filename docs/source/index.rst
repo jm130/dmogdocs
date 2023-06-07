@@ -38,6 +38,7 @@ Contents
    :maxdepth: 2
    :caption: User Guide
    
+   user/techspecs
    user/connecting
    user/datatransfer
    user/openflighthpc
