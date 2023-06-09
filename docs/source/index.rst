@@ -51,6 +51,7 @@ Contents
    :caption: Applications
    
    applications/amber
+   applications/julia
    applications/matlab
    applications/openfoam
    applications/orca
