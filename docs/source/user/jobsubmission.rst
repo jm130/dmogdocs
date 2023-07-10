@@ -273,7 +273,7 @@ On a GPU enabled node, the command is very similar:
 
 .. code-block:: bash
 
-   srun --nodes=1 --ntasks-per-node=32 --mem=1024 --time=00:05:00 --partition=gpu --gres:1 --pty /usr/bin/bash 
+   srun --nodes=1 --ntasks-per-node=32 --mem=1024 --time=00:05:00 --partition=gpu --gres=gpu:1 --pty /usr/bin/bash 
 
 Making dynamic jobs scripts
 ===========================
