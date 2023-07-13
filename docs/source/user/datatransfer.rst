@@ -76,7 +76,7 @@ The syntax to copy files to/from the cluster:
 .. code-block:: 
 
    rsync [options] /source/path/to/object <user>@dmog.hw.ac.uk:/path/to/destination
-   rsync [options] <user>@dmog.hw.ac.uk: /source/path/to/object /path/to/destination
+   rsync [options] <user>@dmog.hw.ac.uk:/source/path/to/object /path/to/destination
 
 For a list of options: ``man rsync``
 
