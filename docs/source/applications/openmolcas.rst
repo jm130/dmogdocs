@@ -38,7 +38,7 @@ An example job script for OpenMolcas would be:
    module load apps/openmolcas_mpi/24.02
    export MOLCAS_NPROCS=$SLURM_TASKS_PER_NODE
 
-   pymolcas -np  molcas.input > MOLCAS.out
+   pymolcas molcas.input > MOLCAS.out
 
 Where ``molcas.input`` is:
 
