@@ -54,6 +54,7 @@ Contents
    applications/julia
    applications/matlab
    applications/openfoam
+   applications/openmolcas
    applications/orca
    applications/python
    applications/r
