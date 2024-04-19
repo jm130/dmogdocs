@@ -49,7 +49,8 @@ Contents
 .. toctree::
    :maxdepth: 2
    :caption: Applications
-   
+
+   applications/abaqus
    applications/amber
    applications/julia
    applications/matlab
