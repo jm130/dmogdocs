@@ -12,7 +12,7 @@ for the job. The second part of the submission script contains the job-specific 
 ``Slurm`` options can also be added to the sbatch command directly as command line arguments, 
 which will override the ones embedded in the job script.
 
-Here are some examples of job submission scripts.
+Here are some examples of job submission scripts:
 
 Serial job
 ~~~~~~~~~~
