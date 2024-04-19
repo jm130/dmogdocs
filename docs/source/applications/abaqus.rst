@@ -15,7 +15,7 @@ This will activate Abaqus and ensure it is ready to use for your jobs.
 You should see something similar to this:  
 
 
-.. code-block:: shell
+.. code-block:: bash
   
   [gp27@login1 [dmog] ~]$ flight env activate gridware
   <gridware{+}> [gp27@login1 [dmog] ~]$ module load apps/abaqus/2024
