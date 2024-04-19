@@ -1,7 +1,7 @@
 ABAQUS
 ======
 
-To submit job to DMOG, first you need to create an input file from the model you are using. You can do this in Abaqus CAE by right-clicking on the job you want to run on DMOG and select Write Input. This will create a file with the same name as the job's name.
+To use Abaqus on DMOG, first you need to create an input file from the model you are looking to submit. You can do this in Abaqus CAE on your PC by right-clicking on the job you want to run on DMOG and select Write Input. This will create a file with the same name as the job's name.
 
 Next, connect to DMOG and run the following commands:
 
