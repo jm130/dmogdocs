@@ -34,11 +34,11 @@ Next, copy your input file from earlier to DMOG. Then, to submit a job to DMOG c
 .. code-block:: slurm
 
   #!/bin/bash
-  #SBATCH --job-name=TestCPUs
-  #SBATCH --ntasks-per-node=16
-  #SBATCH --mem-per-cpu=1024
-  #SBATCH --time=05:00:00
-  abaqus job=[nameForYourJob] input=[yourInputFile].inp cpus=16 interactive
+  #SBATCH --job-name=[name for your job]
+  #SBATCH --ntasks-per-node=[number of CPU threads]
+  #SBATCH --mem-per-cpu=[how much member (in MB) per CPU thread]
+  #SBATCH --time=[estimate of how long your job will take. eg. 05:00:00]
+  abaqus job=[nameForYourJob] input=[yourInputFile].inp cpus=[same value as ntasks-per-node above] interactive
 
 
 The values next to --cpus-per-task, --mem-per-cpu, and --time can be adjusted as needed to suit your job. Please note that higher values next to --cpus-per-task and --mem may mean that your job has to wait for a while before these resources are available.
