@@ -40,7 +40,7 @@ Contents
    
    user/techspecs
    user/connecting
-   user/mobaxterm
+   user/mobaxterm/mobaxterm
    user/datatransfer
    user/openflighthpc
    user/jobmanagement
