@@ -21,6 +21,7 @@ to the `University VPN <https://www.hw.ac.uk/uk/services/is/it-essentials/virtua
 
 VSCode via Slurm
 ----------------
+.. _vsCodeSlurm:
 
 To create a job on DMOG and have VSCode connect to the job to debug code etc:
 
