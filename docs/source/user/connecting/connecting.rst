@@ -18,8 +18,9 @@ Using your favorite ssh-client, just type:
 Note: the cluster is accessible within the University network. For remote access you need to log on 
 to the `University VPN <https://www.hw.ac.uk/uk/services/is/it-essentials/virtual-private-network-vpn.htm>`_  first.
 
+
 VSCode via Slurm
-================
+----------------
 
 To create a job on DMOG and have VSCode connect to the job to debug code etc:
 
@@ -61,8 +62,9 @@ Allow it to be executed:
 
 Run the [interact.sh](<http://interact.sh>) script. Then go to VS Code and connect to the hpc-job host under remote connections on the left.
 
+
 Configure MobaXTerm for DMOG
-============================
+----------------------------
 
 Create a Work folder on the left by right-clicking User Sessions and selecting new folder:
 
