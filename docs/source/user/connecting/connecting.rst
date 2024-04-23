@@ -61,7 +61,7 @@ Allow it to be executed:
     
 ``chmod +x interact.sh``
 
-Run the [interact.sh](<http://interact.sh>) script. Then go to VS Code and connect to the hpc-job host under remote connections on the left.
+Run the ``interact.sh`` script. Then go to VS Code and connect to the hpc-job host under remote connections on the left.
 
 
 Configure MobaXTerm for DMOG
