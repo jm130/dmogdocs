@@ -39,8 +39,7 @@ Contents
    :caption: User Guide
    
    user/techspecs
-   user/connecting
-   user/mobaxterm/mobaxterm
+   user/connecting/connecting
    user/datatransfer
    user/openflighthpc
    user/jobmanagement
