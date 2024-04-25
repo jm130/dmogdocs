@@ -44,7 +44,7 @@ Note that you may need to create the '.ssh' folder and the 'config' config file 
   Host hpc-job
     User [YOUR USERNAME]
     IdentityFile [PATH TO YOUR DMOG SSH PRIV KEY]
-    ProxyCommand ssh dmog "nc $(squeue --me --name=tunnel --states=R -h -O NodeList) 2222"
+    ProxyCommand ssh dmog "nc $(squeue --me --name=vsCode --states=R -h -O NodeList) 2222"
     StrictHostKeyChecking no
 
 
