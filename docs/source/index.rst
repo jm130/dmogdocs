@@ -33,6 +33,7 @@ Contents
    admin/usepolicy
    admin/access
    admin/jobquotas
+   admin/storagequotas
    
 .. toctree::
    :maxdepth: 2
