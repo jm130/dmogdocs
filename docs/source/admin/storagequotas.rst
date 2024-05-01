@@ -1,7 +1,7 @@
 Storage Quotas
 ==============
 
-There are two separate quotas relating to data storage on DMOG:
+Similar to the job quotas previously detailed, there are two separate quotas relating to data storage on DMOG:
 
 #. A quota of 150GB of data capacity
 #. A quota of 250k total files
@@ -24,6 +24,8 @@ This will display an output similar to the following:
 
 
 Should you exceed either of these quotas an asterisk (*) will apear next to the value in the Files column.
+
+These quotas are designed to ensure that all users have a fair opportunity to access the cluster resources. Users who require additional resources are encouraged to contact the HPC team to discuss their requirements.
 
 Conda
 -----
