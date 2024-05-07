@@ -50,7 +50,7 @@ Note that you may need to create the '.ssh' folder and the 'config' config file 
 
 SSH in to DMOG via command line (or other SSH client you normally use)
 
-Create a file called ``interact.sh``, Set its contents to:
+Create a file called ``vsCode.sh``, Set its contents to:
 
 .. code-block:: bash
 
@@ -59,9 +59,9 @@ Create a file called ``interact.sh``, Set its contents to:
 
 Allow it to be executed:
     
-``chmod +x interact.sh``
+``chmod +x vsCode.sh``
 
-Run the ``interact.sh`` script. Then go to VS Code and connect to the hpc-job host under remote connections on the left.
+Run the ``vsCode.sh`` script. Then go to VS Code and connect to the hpc-job host under remote connections on the left.
 
 
 Configure MobaXTerm for DMOG
