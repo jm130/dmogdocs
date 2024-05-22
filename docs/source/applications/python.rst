@@ -18,18 +18,18 @@ Conda
 different projects, ensuring that each project has its own set of dependencies and packages. ``Conda`` simplifies package installation, 
 updating, and removal, making it easier to maintain a consistent and reproducible development environment.
 
-To use conda you need to activate the relevant flight environment:
+To use conda you need to activate the relevant flight environment (replace <name> with the name of your environment):
 
 .. code-block:: bash
    
-   flight env activate conda@[name]
+   flight env activate conda@<name>
    
 The above command will fail if you haven't created ``Conda`` environment yet. To do so, just use the 
-``flight env create`` command as follows (replace [name] with a friendly name for your environment):
+``flight env create`` command as follows (replace <name> with a friendly name for your environment):
 
 .. code-block:: bash
 
-   flight env create conda@[name]
+   flight env create conda@<name>
 
 ``Conda`` itself supports multiple user environments. The default environment is called ``base``. 
 You can use it to build your own custom workspace. The ``conda`` command enables you to list the
