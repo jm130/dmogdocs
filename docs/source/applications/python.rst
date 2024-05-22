@@ -22,7 +22,7 @@ To use conda you need to activate the relevant flight environment:
 
 .. code-block:: bash
    
-   flight env activate conda@<name>
+   flight env activate conda@[name]
    
 The above command will fail if you haven't created ``Conda`` environment yet. To do so, just use the 
 ``flight env create`` command as follows (replace [name] with a friendly name for your environment):
