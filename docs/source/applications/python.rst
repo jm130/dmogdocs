@@ -25,11 +25,11 @@ To use conda you need to activate the relevant flight environment:
    flight env activate conda@<name>
    
 The above command will fail if you haven't created ``Conda`` environment yet. To do so, just use the 
-``flight env create`` command as follows:
+``flight env create`` command as follows (replace [name] with a friendly name for your environment):
 
 .. code-block:: bash
 
-   flight env create conda[@name]
+   flight env create conda@[name]
 
 ``Conda`` itself supports multiple user environments. The default environment is called ``base``. 
 You can use it to build your own custom workspace. The ``conda`` command enables you to list the
