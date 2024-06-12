@@ -20,7 +20,7 @@ Next, copy your input file from earlier to DMOG. Then, to submit a job to DMOG c
   module load apps/abaqus/2024
 
   #Run Abaqus using input file
-  abaqus job=[nameForYourJob] input=[yourInputFile].inp cpus=[same value as ntasks-per-node above] interactive
+  abaqus job=[nameForYourJob] input=[yourInputFile].inp cpus=$SLURM_JOB_CPUS_PER_NODE interactive
 
 
 The values next to --cpus-per-task, --mem-per-cpu, and --time can be adjusted as needed to suit your job. Please note that higher values next to --cpus-per-task and --mem may mean that your job has to wait for a while before these resources are available.
