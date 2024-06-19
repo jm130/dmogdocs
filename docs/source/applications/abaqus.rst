@@ -16,6 +16,7 @@ Next, copy your input file from earlier to DMOG. Then, to submit a job to DMOG c
   #SBATCH --time=[estimate of how long your job will take. eg. 05:00:00]
 
   #Activate Abaqus software
+  flight start
   flight env activate gridware
   module load apps/abaqus/2024
 
