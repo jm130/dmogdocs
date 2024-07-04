@@ -51,23 +51,8 @@ Contents
    :maxdepth: 2
    :caption: Applications
 
-   applications/abaqus
-   applications/amber
-   applications/ansysem
-   applications/cmg
-   applications/cp2k
-   applications/delft3d
-   applications/julia
-   applications/matlab
-   applications/mathematica
-   applications/openfoam
-   applications/openmolcas
-   applications/opm
-   applications/orca
-   applications/python
-   applications/r
-   applications/vscode
-   
+
+   applications/*
    
    
    
