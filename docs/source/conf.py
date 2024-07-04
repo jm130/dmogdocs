@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'DMOG docs'
-copyright = '2024, Jose M Menendez, Graeme Pollock'
+copyright = '2024 - Jose M Menendez, Graeme Pollock'
 author = 'Jose M Menendez, Graeme Pollock'
 
 release = '1.0'
