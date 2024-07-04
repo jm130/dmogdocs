@@ -62,6 +62,7 @@ Contents
    applications/mathematica
    applications/openfoam
    applications/openmolcas
+   applications/opm
    applications/orca
    applications/python
    applications/r
