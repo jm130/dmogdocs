@@ -37,7 +37,7 @@ Contents
    
 .. toctree::
    :maxdepth: 2
-   :caption: User Guide
+   :caption: User Guides
    
    user/techspecs
    user/connecting/connecting
@@ -53,6 +53,7 @@ Contents
 
    applications/abaqus
    applications/amber
+   applications/ansysem
    applications/cmg
    applications/cp2k
    applications/julia
