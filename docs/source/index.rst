@@ -28,24 +28,16 @@ Contents
 .. toctree::
    :maxdepth: 2
    :caption: General Remarks
+   :glob:
    
-   admin/introduction
-   admin/usepolicy
-   admin/access
-   admin/jobquotas
-   admin/storagequotas
+   admin/*
    
 .. toctree::
    :maxdepth: 2
    :caption: User Guides
+   :glob:
    
-   user/techspecs
-   user/connecting/connecting
-   user/datatransfer
-   user/openflighthpc
-   user/jobmanagement
-   user/jobsubmission
-   user/softwaremanagement
+   user/*
    
 .. toctree::
    :maxdepth: 2
