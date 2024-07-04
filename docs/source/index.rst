@@ -56,8 +56,10 @@ Contents
    applications/ansysem
    applications/cmg
    applications/cp2k
+   applications/delft3d
    applications/julia
    applications/matlab
+   applications/mathematica
    applications/openfoam
    applications/openmolcas
    applications/orca
