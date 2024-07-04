@@ -54,6 +54,7 @@ Contents
    applications/abaqus
    applications/amber
    applications/cmg
+   applications/cp2k
    applications/julia
    applications/matlab
    applications/openfoam
