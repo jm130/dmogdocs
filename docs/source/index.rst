@@ -53,6 +53,7 @@ Contents
 
    applications/abaqus
    applications/amber
+   applications/cmg
    applications/julia
    applications/matlab
    applications/openfoam
