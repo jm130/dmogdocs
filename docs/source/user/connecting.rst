@@ -69,13 +69,13 @@ Configure MobaXTerm for DMOG
 
 Create a Work folder on the left by right-clicking User Sessions and selecting new folder:
 
-.. image:: mobaxterm1.png
+.. image:: connecting/mobaxterm1.png
   :width: 300
 
 
 Right-click the work folder and select New session:
 
-.. image:: mobaxterm2.png
+.. image:: connecting/mobaxterm2.png
   :width: 300
 
 
@@ -85,7 +85,7 @@ Check the box next to Specify Username and enter your DMOG username into the fie
 
 Bookmark Settings and enter DMOG into the Session Name field then click OK:
 
-.. image:: mobaxterm3.png
+.. image:: connecting/mobaxterm3.png
   :width: 600
 
 
@@ -93,7 +93,7 @@ Double-click the DMOG session on the left of the window, you will be prompted fo
 
 Once logged in, at the bottom left of the window check the box next to Follow Terminal Folder:
 
-.. image:: mobaxterm4.png
+.. image:: connecting/mobaxterm4.png
   :width: 300
 
 
