@@ -78,7 +78,7 @@ To use anaconda:
 .. code-block:: bash
    
    flight env activate gridware
-   module load app/<anaconda/anaconda3>
+   module load apps/<anaconda/anaconda3>
    
 Once the module is loaded, the same commands as for ``Conda`` apply to ``Anaconda``. 
 
