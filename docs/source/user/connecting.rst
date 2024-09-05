@@ -9,7 +9,7 @@ To connect to another machine using SSH you need to have a SSH client program in
 macOS, Linux, and newer versions of Windows come with a command-line (text-only) SSH client pre-installed. 
 On older Windows versions there are various graphical SSH clients you can use like PuTTY or MobaXterm.
 
-Using your favorite ssh-client, just type:
+Using your favorite SSH client, just type:
 
 .. code-block:: bash
 
@@ -102,3 +102,40 @@ The area to the left of the Window will allow you to see the files in the folder
 To upload files from your Windows PC to DMOG, you can either drag and drop files onto this panel on the left to, or use the Up arrow to select files to upload. You can also download files from DMOG to your computer by selecting them on the left panel and clicking the Down arrow.
 
 
+Connecting while off-campus
+---------------------------
+If you are looking to connect to DMOG from off-campus you will need to use the SSH gateway (SSHGW) as a proxy/jump host.
+
+If you have not already been given access to the SSHGW please create a ticket with the helpdesk to request this.
+
+Set your client to use sshw.hw.ac.uk as a proxy/jump host, and to connect to it on port 44788
+
+If you are looking to use VSCode or MobaXterm (see above) in this way, you'll need to make some adjustments:
+
+VSCode:
+In your SSH config file, change the host DMOG section to match the following (changing the values in the [] to your own):
+
+Host dmog
+  User [username]
+  HostName dmog.hw.ac.uk
+  Port 22
+  ProxyJump [username]@sshgw.hw.ac.uk:44788
+  ConnectTimeout 60
+  ServerAliveInterval 30
+  ServerAliveCountMax 120
+
+MobaXTerm:
+
+Right-click the session on the left, then select Edit Session.
+
+In the window that appears, select Network Settings, then click 'SSH gateway (jump host)'
+
+In the new window that appears enter the following:
+
+Gatway host: sshgw.hw.ac.uk
+Username: your HWU username
+Port: 44788
+
+Click OK, then OK again. 
+
+You should now be able to connect to DMOG via the SSHGW
