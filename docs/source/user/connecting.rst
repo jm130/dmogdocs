@@ -135,11 +135,11 @@ In the window that appears, select Network Settings, then click 'SSH gateway (ju
 
 In the new window that appears enter the following:
 
-``Gatway host: sshgw.hw.ac.uk``
+Gatway host: ``sshgw.hw.ac.uk``
 
-``Username: your HWU username``
+Username: ``your HWU username``
 
-``Port: 44788``
+Port: ``44788``
 
 Click OK, then OK again. 
 
