@@ -16,7 +16,7 @@ Using your favorite SSH client, just type:
    ssh <username>@dmog.hw.ac.uk
 
 Note: the cluster is accessible within the University network. For remote access you need to log on 
-to the `University VPN <https://www.hw.ac.uk/uk/services/is/it-essentials/virtual-private-network-vpn.htm>`_  first.
+to the `University VPN <https://www.hw.ac.uk/uk/services/is/it-essentials/virtual-private-network-vpn.htm>`_ , or request access to the SSH gateway via the self-service portal first.
 
 
 VSCode via Slurm
