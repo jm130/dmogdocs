@@ -113,6 +113,7 @@ Set your client to use sshw.hw.ac.uk as a proxy/jump host, and to connect to it 
 If you are looking to use VSCode or MobaXterm (see above) in this way, you'll need to make some adjustments:
 
 VSCode:
+
 In your SSH config file, change the host DMOG section to match the following (changing the values in the [ ] to your own):
 
 .. code-block:: bash
