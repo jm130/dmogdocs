@@ -16,17 +16,17 @@ You should see an output similar to this:
 
 .. code-block:: bash
   
-   ┌───────┬─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬────────────┐
-   │ Name  │ Summary                                                                                                                                                             │ State      │
-   ├───────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┤
-   │ gnome │ GNOME v3, a free and open-source desktop environment for Unix-like operating systems.                                                                               │ Verified   │
-   │       │  > https://www.gnome.org/                                                                                                                                           │            |
-   │ kde   │ KDE Plasma Desktop (KDE 4). Plasma is KDE's desktop environment. Simple by default, powerful when needed.                                                           │ Unverified │
-   │       │  > https://kde.org/                                                                                                                                                 │            │
-   │ xfce  │ Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and │ Unverified │
-   │       │ user friendly.                                                                                                                                                      │            │
-   │       │  > https://xfce.org/                                                                                                                                                │            │
-   └───────┴─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴────────────┘
+   ┌───────┬────────────────────────────────────────────────────────────────────────────────────────────── ───────────┐
+   │ Name  │ Summary                                                                                                  │
+   ├───────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+   │ gnome │ GNOME v3, a free and open-source desktop environment for Unix-like operating systems.                    │
+   │       │  > https://www.gnome.org/                                                                                |
+   │ kde   │ KDE Plasma Desktop (KDE 4). Plasma is KDE's desktop environment. Simple by default, powerful when needed.│
+   │       │  > https://kde.org/                                                                                      │
+   │ xfce  │ Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast.           │
+   │       │ user friendly.                                                                                           │
+   │       │  > https://xfce.org/                                                                                     │
+   └───────┴──────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 
 To start a session with your chosen desktop environment:
 
