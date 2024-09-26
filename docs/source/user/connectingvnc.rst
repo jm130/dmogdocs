@@ -72,7 +72,7 @@ This will print the same information again, but with some key info added. Specif
 
    ssh -L 5903:137.195.249.10:5903 gp27@dmog.hw.ac.uk
 
-(please note that this command assumes you are connecting to DMOG from on-campus or via the VPN. If you can't connect to DMOG using just simple 'ssh dmog.hw.ac.uk' the above command won't work.
+(please note that this command assumes you are connecting to DMOG from on-campus or via the VPN. If you can't connect to DMOG using just simple 'ssh dmog.hw.ac.uk' the above command won't work. You will need to adjust your normal SSH command, for example: ssh -L 5903:localhost:44788 sshgw.hw.ac.uk ssh -L 5903:localhost:5903 -N 137.195.249.10
 
 Run this command on your local machine. Then switch over to your VNC client and connect to, in my example, localhost:5903. You will be prompted to enter a password, enter the password shown on DMOG.
    
