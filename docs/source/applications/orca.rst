@@ -17,8 +17,8 @@ To run ORCA on the HPC cluster, you need to load the appropriate software module
 .. code-block:: bash
 
    flight env activate gridware
-   module load apps/ORCA/5.0.4
-   module load mpi/openmpi/4.0.7
+   module load apps/ORCA
+   module load mpi/openmpi
    
 Below is an example of a job script and input file for running a basic ORCA calculation:
 
