@@ -35,8 +35,8 @@ Below is an example of a job script and input file for running a basic ORCA calc
    export UCS_LOG_LEVEL=error
    
    flight env activate gridware
-   module load apps/orca/5.0.4
-   module load mpi/openmpi/4.0.7
+   module load apps/orca
+   module load mpi/openmpi
    
    input=input.inp
    
