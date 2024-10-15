@@ -7,7 +7,7 @@ The current job quotas for standard users are as follows:
 
 #. maximum of 10 jobs running per user 
 #. maximum of 60 jobs submitted per user (allowing up to 50 jobs to be held in a queued/pending state)
-#. Maximum of 128 cores 
+#. Maximum of 128 CPU cores 
 #. Maximum of 1006G RAM 
 #. Maximum of 2 GPUs per user (minimum of 1 GPU per job)
 #. Maximum runtime 7 days
@@ -20,13 +20,27 @@ There are also groups which have different quotas. Membership of these groups is
 
 Details of these groups are:
 
-.. list-table:: Group Quotas
-   :widths: 25 25
+.. list-table::
+   :widths: 25 50
    :header-rows: 1
 
    * - Group Name
-     - Quota
+     - CPUs
+     - GPUs
+     - Running Jobs
+     - Total Jobs in queue
    * - COMSEL
-     - 768 CPUs, 20 GPUs
-   * - TEST
-     - Test
+     - 768 (shared across group)
+     - 20 (shared across group)
+     - 15
+     - 65
+   * - highlimits
+     - 384 
+     - 
+     - 15
+     - 65
+   * - prilimits
+     - 256
+     - 
+     - 15
+     - 65
