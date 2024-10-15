@@ -27,8 +27,8 @@ Details of these groups are:
    * - Group Name
      - CPUs
      - GPUs
-     - Running Jobs
-     - Total Jobs in queue
+     - Active Jobs
+     - Total Jobs
    * - COMSEL
      - 768 (shared across group)
      - 20 (shared across group)
