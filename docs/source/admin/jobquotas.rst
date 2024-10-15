@@ -18,6 +18,8 @@ the HPC team to discuss their requirements.
 
 There are also groups which have different quotas. Membership of these groups is based on various factors, including early testers, financial contribution to DMOG, etc.
 
+Currently there are no differences in job priority between groups.
+
 Details of these groups are:
 
 .. list-table::
