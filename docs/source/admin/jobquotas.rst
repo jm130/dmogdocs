@@ -20,13 +20,13 @@ There are also groups which have different quotas. Membership of these groups is
 
 Details of these groups are:
 
-::list-table::
-  :widths: 25 25 50
-  :header-rows: 1
+.. list-table::
+   :widths: 25 25 50
+   :header-rows: 1
 
-  * - Group Name
-    - Quota
-  * - COMSEL
-    - 768 CPUs, 20 GPUs
-  * - TEST
-    - Test
+   * - Group Name
+     - Quota
+   * - COMSEL
+     - 768 CPUs, 20 GPUs
+   * - TEST
+     - Test
