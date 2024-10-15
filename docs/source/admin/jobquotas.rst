@@ -20,7 +20,7 @@ There are also groups which have different quotas. Membership of these groups is
 
 Details of these groups are:
 
-.. list-table::
+.. list-table:: Group Quotas
    :widths: 25 25 50
    :header-rows: 1
 
