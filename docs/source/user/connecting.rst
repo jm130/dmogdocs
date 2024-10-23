@@ -67,6 +67,10 @@ Run the ``vsCode.sh`` script. Then go to VS Code and connect to the hpc-job host
 Configure MobaXTerm for DMOG
 ----------------------------
 
+MobaXTerm is an SSH/SCP/SFTP client available for Windows. As it has SCP/SFTP functionality built-in it simplifies copying files to/from DMOG.
+
+It is available from here: `MobaXTerm <https://mobaxterm.mobatek.net/download.html>`_
+
 Create a Work folder on the left by right-clicking User Sessions and selecting new folder:
 
 .. image:: connecting/mobaxterm1.png
