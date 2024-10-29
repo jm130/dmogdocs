@@ -76,7 +76,7 @@ This will print the same information again, but with some key info added. Specif
 
 .. code-block:: bash
 
-  ssh -L 5903:localhost:44788 sshgw.hw.ac.uk ssh -L 5903:localhost:5903 -N 137.195.249.10
+  ssh -tt -L 5903:localhost:5903 gp27@sshgw.hw.ac.uk -p 44788 ssh -L 5903:localhost:5903 137.195.249.10
 
 Run this command on your local machine. Then switch over to your VNC client and connect to, in my example, localhost:5903. You will be prompted to enter a password, enter the password shown on DMOG.
    
