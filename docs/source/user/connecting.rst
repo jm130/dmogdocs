@@ -135,7 +135,9 @@ MobaXTerm:
 
 Right-click the session on the left, then select Edit Session.
 
-In the window that appears, select Network Settings, then click 'SSH gateway (jump host)'
+In the window that appears, change "Remote Host" from dmog.hw.ac.uk to 137.195.249.10
+
+Then, select Network Settings, then click 'SSH gateway (jump host)'
 
 In the new window that appears enter the following:
 
