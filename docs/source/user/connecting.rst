@@ -1,5 +1,5 @@
 Connecting to DMOG
-==================
+##################
 
 Before following the process below, this guide assumes you have an account on the cluster. 
 If that is not the case, you can request one by contacting ISHelp@hw.ac.uk
@@ -20,7 +20,7 @@ to the `University VPN <https://www.hw.ac.uk/uk/services/is/it-essentials/virtua
 
 
 VSCode via Slurm
-----------------
+****************
 .. _vsCodeSlurm:
 
 To create a job on DMOG and have VSCode connect to the job to debug code etc:
@@ -65,7 +65,7 @@ Run the ``vsCode.sh`` script. Then go to VS Code and connect to the hpc-job host
 
 
 Configure MobaXTerm for DMOG
-----------------------------
+****************************
 
 MobaXTerm is an SSH/SCP/SFTP client available for Windows. As it has SCP/SFTP functionality built-in it simplifies copying files to/from DMOG.
 
@@ -107,7 +107,7 @@ To upload files from your Windows PC to DMOG, you can either drag and drop files
 
 
 Connecting while off-campus
----------------------------
+***************************
 If you are looking to connect to DMOG from off-campus you will need to use the SSH gateway (SSHGW) as a proxy/jump host.
 
 If you have not already been given access to the SSHGW please create a ticket with the helpdesk to request this.
@@ -116,8 +116,8 @@ Set your client to use sshw.hw.ac.uk as a proxy/jump host, and to connect to it 
 
 If you are looking to use VSCode or MobaXterm (see above) in this way, you'll need to make some adjustments:
 
-VSCode:
-
+VSCode
+======
 In your SSH config file, change the host DMOG section to match the following (changing the values in the [ ] to your own):
 
 .. code-block:: bash
@@ -131,8 +131,8 @@ In your SSH config file, change the host DMOG section to match the following (ch
      ServerAliveInterval 30
      ServerAliveCountMax 120
 
-MobaXTerm:
-
+MobaXTerm
+=========
 Right-click the session on the left, then select Edit Session.
 
 In the window that appears, change "Remote Host" from dmog.hw.ac.uk to 137.195.249.10
