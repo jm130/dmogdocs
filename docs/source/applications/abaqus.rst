@@ -18,7 +18,7 @@ Next, copy your input file from earlier to DMOG. Then, to submit a job to DMOG c
   #Activate Abaqus software
   flight start
   flight env activate gridware
-  module load apps/abaqus/2024
+  module load apps/abaqus/2024+el9fix
 
   #Run Abaqus using input file
   abaqus job=[nameForYourJob] input=[yourInputFile].inp cpus=$SLURM_JOB_CPUS_PER_NODE interactive
@@ -41,3 +41,16 @@ Once your job is submitted, you can monitor it either via the sacct command, or 
 or
 
 ``tail -f [yourJobName].msg``
+
+
+Abaqus Python
+-------------
+Abaqus has it's own Python interpreter, to use this you will need to use a specific version of Abaqus on DMOG.
+
+You can load this with the following commands:
+
+.. code-block:: slurm
+
+  flight start
+  flight env activate gridware
+  module load apps/abaqus/2024
