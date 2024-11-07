@@ -23,7 +23,7 @@ Currently there are no differences in job priority between groups.
 Details of these groups are:
 
 .. list-table::
-   :widths: 25 25 25 25 25
+   :widths: 25 25 25 25 25 25
    :header-rows: 1
 
    * - Group Name
@@ -51,4 +51,4 @@ Details of these groups are:
      - 15
      - 65
 
-*: resource is shared between members of the group
+(*): resource is shared between members of the group
