@@ -126,6 +126,7 @@ In your SSH config file, change the host DMOG section to match the following (ch
 
    Host dmog
      User [username]
+     IdentityFile [PATH TO YOUR DMOG SSH PRIV KEY]
      HostName dmog.hw.ac.uk
      Port 22
      ProxyJump [username]@sshgw.hw.ac.uk:44788
