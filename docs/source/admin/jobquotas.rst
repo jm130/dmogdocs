@@ -29,20 +29,26 @@ Details of these groups are:
    * - Group Name
      - CPUs
      - GPUs
+     - Mem
      - Active Jobs
      - Total Jobs
    * - COMSEL
-     - 768 (shared across group)
-     - 20 (shared across group)
-     - 15
+     - 768*
+     - 20*
+     - 2.51TB*
+     - 20
      - 65
    * - highlimits
      - 384 
      - 
+     -
      - 15
      - 65
    * - prilimits
      - 256
      - 
+     -
      - 15
      - 65
+
+*: resource is shared between members of the group
