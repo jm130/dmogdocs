@@ -63,6 +63,11 @@ Allow it to be executed:
 
 Run the ``vsCode.sh`` script. Then go to VS Code and connect to the hpc-job host under remote connections on the left.
 
+Note: If your connection to DMOG using VSCode suddenly stops working, this is usually due to exceeding your file storage quota. You can check this with:
+
+.. code-bloack:: bash
+   quota -s
+
 
 Configure MobaXTerm for DMOG
 ----------------------------
