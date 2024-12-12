@@ -1,7 +1,7 @@
 General Use Policy
 ==================
 
-The DOMG HPC cluster is a shared resource that has been set up to support research. 
+The DMOG HPC cluster is a shared resource that has been set up to support research. 
 It is a powerful and valuable resource that can be used to 
 undertake computationally intensive tasks that would otherwise not be possible. It is 
 important to remember that this resource is shared by all users and must, therefore, be used 
