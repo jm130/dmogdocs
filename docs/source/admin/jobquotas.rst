@@ -40,14 +40,14 @@ Details of these groups are:
      - 65
    * - highlimits
      - 384 
-     - 
-     -
+     - 6
+     - 3TB
      - 15
      - 65
    * - prilimits
      - 256
-     - 
-     -
+     - 4
+     - 2TB
      - 15
      - 65
 
