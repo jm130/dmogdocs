@@ -10,5 +10,3 @@ GeoChemFoam can be enabled for use within your submission script (or interactive
     module load apps/anaconda3
     conda activate gcfoam
     source /opt/gridware/depots/761a7df9/el9/share/openfoamplus/22.06/applications/utilities/GeoChemFoam-5.1/etc/bashrc
-
-
