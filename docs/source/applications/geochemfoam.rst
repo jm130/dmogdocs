@@ -1,5 +1,5 @@
 GeoChemFoam
-===========
+============
 
 GeoChemFoam can be enabled for use within your submission script (or interactively) with the following commands:
 
