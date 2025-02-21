@@ -45,6 +45,13 @@ Contents
    :glob:
    
    applications/*
+
+.. toctree::
+   :maxdeptch: 2
+   :caption: Utilities
+   :glob:
+
+   utilities/*
    
    
    
