@@ -41,22 +41,14 @@ Contents
    
 .. toctree::
    :maxdepth: 2
-   :caption: Applications
-   :glob:
-   
-   applications/*
-
-.. toctree::
-   :maxdepth: 2
    :caption: Utilities
    :glob:
    
    utilities/*
    
+.. toctree::
+   :maxdepth: 2
+   :caption: Applications
+   :glob:
    
-   
-   
-
-  
-
-
+   applications/*
