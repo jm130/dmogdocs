@@ -47,10 +47,10 @@ Contents
    applications/*
 
 .. toctree::
-   :maxdeptch: 2
+   :maxdepth: 2
    :caption: Utilities
    :glob:
-
+   
    utilities/*
    
    
