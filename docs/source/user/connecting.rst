@@ -18,10 +18,10 @@ Using your favorite SSH client, just type:
 Note: the cluster is accessible within the University network. For remote access you need to log on 
 to the `University VPN <https://www.hw.ac.uk/uk/services/is/it-essentials/virtual-private-network-vpn.htm>`_ , or request access to the SSH gateway via the self-service portal first.
 
+.. _vsCodeSlurm:
 
 VSCode via Slurm
 ----------------
-.. _vsCodeSlurm:
 
 To create a job on DMOG and have VSCode connect to the job to debug code etc:
 
