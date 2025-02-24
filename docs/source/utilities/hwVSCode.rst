@@ -5,7 +5,7 @@ This tool is used to create a job in the system which you can connect to via VS 
 
 There is also a version if a GPU is required: hwVSCodeGPU
 
-To use this tool, please first follow the steps for getting setup to connect to DMOG via VS Code shown :ref:`HERE <user-connecting>`
+To use this tool, please first follow the steps for getting setup to connect to DMOG via VS Code shown :ref:`HERE <vsCodeSlurm>`
 
 Please note, however, that you will need to modify part of the config file:
 
