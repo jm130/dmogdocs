@@ -6,6 +6,7 @@ hwNodes will provide you with a high level overview of the status of all DMOG co
 An example output:
 
 .. code-block:: bash
+
     [gp27@login1 [dmog] scripts]$ hwNodes 
     NODELIST            CPUS S:C:T   MEMORY    ALLOCMEM  FREE_MEM  GRES           GRES_USED      CPUS(A/I/O/T)  CPU_LOAD  STATE       REASON              
     ======================================================================================================================================================
