@@ -17,6 +17,8 @@ Please use:
 
 ``ProxyCommand ssh dmog 'nc $(squeue --me --name=vsCode --states=R -h -O NodeList) $(< ~/hwTunnelPort)'``
 
+When hwVSCode is run, it creates a small file in your home directory called hwTunnelPort. This file contains the port number used by the job, which your SSH config above tells VS Code to use to connect to the compute node.
+
 An example output:
 
 .. code-block:: bash
