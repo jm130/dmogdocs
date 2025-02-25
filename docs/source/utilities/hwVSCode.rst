@@ -11,11 +11,11 @@ Please note, however, that you will need to modify part of the config file:
 
 In your SSH config file, under hpc-job, rather than:
 
-``ProxyCommand ssh dmog 'nc $(squeue --me --name=vsCode --states=R -h -O NodeList) **2222**'``
+``ProxyCommand ssh dmog 'nc $(squeue --me --name=vsCode --states=R -h -O NodeList) 2222'``
 
 Please use:
 
-``ProxyCommand ssh dmog 'nc $(squeue --me --name=vsCode --states=R -h -O NodeList) **$(< ~/hwTunnelPort)**'``
+``ProxyCommand ssh dmog 'nc $(squeue --me --name=vsCode --states=R -h -O NodeList) $(< ~/hwTunnelPort)'``
 
 An example output:
 
