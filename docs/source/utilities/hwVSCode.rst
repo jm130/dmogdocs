@@ -23,12 +23,14 @@ An example output:
 
 .. code-block:: bash
 
-    [gp27@login1 [dmog] scripts]$ hwVSCode
+    [gp27@login1 [dmog] ~]$ hwVSCode
+
     Starting VSCode CPU job...
     VSCode job started.
-    JobID: 190028
-    End time: Mon 24 Feb 10:21:36 GMT 2025
+    JobID: 190340
+    Port used: 2313
+    End time: Tue 25 Feb 09:52:10 GMT 2025
 
-    To cancel job early: scancel 190028
+    To cancel job early: scancel 190340
 
 Once you have run the tool, you can connect to DMOG using VS Code as normal.
