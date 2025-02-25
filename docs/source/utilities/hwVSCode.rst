@@ -31,4 +31,4 @@ An example output:
 
     To cancel job early: scancel 190028
 
-Once you have run the tool, you can connect to DMOG using vsCode as normal.
+Once you have run the tool, you can connect to DMOG using VS Code as normal.
