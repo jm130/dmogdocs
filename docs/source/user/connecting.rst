@@ -33,8 +33,6 @@ Modify/create your SSH config file (Windows: C:\\users\\[username]\\.ssh\\config
 
 Note that you may need to create the '.ssh' folder and the 'config' config file if they are not already there.
 
-.. note::
-   If your computer is using Windows 10 you will need to use double quotes (" ") in the ProxyCommand line, instead of the single quotes (' ') as shown below.
 
 .. code-block:: bash
   
@@ -50,6 +48,8 @@ Note that you may need to create the '.ssh' folder and the 'config' config file 
     ProxyCommand ssh dmog 'nc $(squeue --me --name=vsCode --states=R -h -O NodeList) 2222'
     StrictHostKeyChecking no
 
+.. note::
+   If your computer is using Windows 10 you will need to use double quotes (" ") in the ProxyCommand line, instead of the single quotes (' ') as shown above.
 
 SSH in to DMOG via command line (or other SSH client you normally use)
 
