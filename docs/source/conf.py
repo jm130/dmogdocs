@@ -36,7 +36,7 @@ html_theme_options = {
     'logo_only': False,
     'display_version': True,
     'style_nav_header_background': '#c2ddf0',
-    'collapse_navigation': True,
+    'sticky_navigation': False,
 }
 
 # -- Options for EPUB output
