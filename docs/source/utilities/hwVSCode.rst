@@ -5,6 +5,8 @@ This tool is used to create a job in the system which you can connect to via VS 
 
 There is also a version if a GPU is required: hwVSCodeGPU
 
+.. _vsCodeSlurm:
+
 To use this tool, please first modify/create your SSH config file (Windows: C:\\users\\[username]\\.ssh\\config Mac/Linux: ~/.ssh/config) to include the following:
 
 .. note::
