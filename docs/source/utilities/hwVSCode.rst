@@ -5,17 +5,24 @@ This tool is used to create a job in the system which you can connect to via VS 
 
 There is also a version if a GPU is required: hwVSCodeGPU
 
-To use this tool, please first follow the steps for getting setup to connect to DMOG via VS Code shown :ref:`HERE <vsCodeSlurm>`
+To use this tool, please first modify/create your SSH config file (Windows: C:\\users\\[username]\\.ssh\\config Mac/Linux: ~/.ssh/config) to include the following:
 
-Please note, however, that you will need to modify part of the config file:
+.. note::
+   You may need to create the '.ssh' folder and the 'config' config file if they are not already there.
 
-In your SSH config file, under hpc-job, rather than:
+.. code-block:: bash
+  
+  Host dmog
+    User [YOUR USERNAME]
+    IdentityFile [PATH TO YOUR DMOG SSH PRIV KEY]
+    ControlMaster auto
+    HostName dmog.hw.ac.uk
 
-``ProxyCommand ssh dmog 'nc $(squeue --me --name=vsCode --states=R -h -O NodeList) 2222'``
-
-Please use:
-
-``ProxyCommand ssh dmog 'nc $(squeue --me --name=vsCode --states=R -h -O NodeList) $(< ~/hwTunnelPort)'``
+  Host hpc-job
+    User [YOUR USERNAME]
+    IdentityFile [PATH TO YOUR DMOG SSH PRIV KEY]
+    ProxyCommand ssh dmog 'nc $(squeue --me --name=vsCode --states=R -h -O NodeList) $(< ~/hwTunnelPort)'
+    StrictHostKeyChecking no
 
 .. note::
    If your computer is using Windows 10 you will need to use double quotes (" "), instead of the single quotes (' ') as shown above.
