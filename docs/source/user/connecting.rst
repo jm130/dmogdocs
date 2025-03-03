@@ -32,7 +32,7 @@ Next, follow the steps shown here to create your SSH config file, start a slurm 
 .. note::
    If your connection to DMOG using VSCode suddenly stops working, this is usually due to exceeding your file storage quota. You can check this with:
 
-   ``quota -s``
+   :ref:`hwQuota <hwQuota>`
 
 
 Configure MobaXTerm for DMOG
