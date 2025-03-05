@@ -46,3 +46,16 @@ An example output:
     To cancel job early: scancel 190340
 
 Once you have run the tool, you can connect to DMOG using VS Code by clicking Remote Explorer on the left, then clicking the arrow next to hpc-job on the list of remotes.
+
+Please note that depending on how busy the cluster is, your job may not start immediately and be put in the queue. Should this happen you'll see an output like this:
+
+.. code-block:: bash
+   
+   [gp27@login1 [dmog] scripts]$ ./hwVSCode 
+
+   Submitting VSCode CPU job...done.
+   VSCode job queued.
+   Job ID: 195655
+   Port Used: 2361
+
+   Job waiting to start. Please monitor job using 'squeue -j 195655' to see when it starts.
