@@ -35,15 +35,15 @@ An example output:
 
 .. code-block:: bash
 
-    [gp27@login1 [dmog] ~]$ hwVSCode
+   [gp27@login1 [dmog] ~]$ hwVSCode
 
-    Starting VSCode CPU job...
-    VSCode job started.
-    JobID: 190340
-    Port used: 2313
-    End time: Tue 25 Feb 09:52:10 GMT 2025
+   Submitting VSCode CPU job...done.
+   VSCode job started.
+   JobID: 195659
+   Port used: 2222
+   End time: Wed  5 Mar 18:02:59 GMT 2025
 
-    To cancel job early: scancel 190340
+   To cancel job early: scancel 195659
 
 Once you have run the tool, you can connect to DMOG using VS Code by clicking Remote Explorer on the left, then clicking the arrow next to hpc-job on the list of remotes.
 
