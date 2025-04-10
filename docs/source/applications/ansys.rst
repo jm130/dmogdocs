@@ -11,6 +11,7 @@ Ansys can be enabled for use within your submission script (or interactively) wi
 Here is an example of a full submission script for Ansys Fluent:
 
 .. code-block:: bash
+    
     #!/bin/bash -l
     ################# Part-1 Slurm directives ####################
     # Working dir
