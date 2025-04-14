@@ -8,7 +8,7 @@ Ansys can be enabled for use within your submission script (or interactively) wi
     flight env activate gridware
     module load apps/ansys
 
-Here is an example of a full submission script for Ansys Fluent:
+Here is an example of a full submission script for Ansys Fluent (provided by Assistant Professor Fabio Malizia):
 
 .. code-block:: bash
     
