@@ -15,7 +15,7 @@ On the DMOG cluster, the OpenFOAM module can be loaded using the following comma
 .. code-block:: bash
 
    flight env activate gridware
-   module load pps/openfoamplus/22.06
+   module load apps/openfoamplus
    
 Once you have loaded the module, you can run OpenFOAM applications using the 
 standard OpenFOAM command line interface. Here are a couple of example 
@@ -33,7 +33,7 @@ jobscripts to get you started:
    #SBATCH --partition=nodes
    
    flight env activate gridware
-   module load apps/openfoamplus/22.06/gcc-8.4.0
+   module load apps/openfoamplus
    
    mpirun -np $SLURM_NTASKS --hostfile $SLURM_JOB_NODELIST interFoam -parallel
 
@@ -50,7 +50,7 @@ jobscripts to get you started:
    #SBATCH --partition=gpu
    
    flight env activate gridware
-   module load apps/openfoamplus/22.06/gcc-8.4.0
+   module load apps/openfoamplus
    
    mpirun -np $SLURM_NTASKS --hostfile $SLURM_JOB_NODELIST interFoam -parallel
 
