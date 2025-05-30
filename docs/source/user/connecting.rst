@@ -23,11 +23,11 @@ VSCode via Slurm
 
 To create a job on DMOG and have VSCode connect to the job to debug code etc:
 
-# You will need to have an SSH keypair set up for connecting to DMOG, so that you can connect without entering your password.
+#. You will need to have an SSH keypair set up for connecting to DMOG, so that you can connect without entering your password.
 
-# Within VSCode, install the 'Remote - SSH' extension.
+#. Within VSCode, install the 'Remote - SSH' extension.
 
-# Next, follow the steps shown here to create your SSH config file, start a slurm job, and connect to it via VS Code: :ref:`hwVSCode <vsCodeSlurm>`
+#. Next, follow the steps shown here to create your SSH config file, start a slurm job, and connect to it via VS Code: :ref:`hwVSCode <vsCodeSlurm>`
 
 .. note::
    If your connection to DMOG using VSCode suddenly stops working, this is usually due to exceeding your file storage quota. You can check this with:
