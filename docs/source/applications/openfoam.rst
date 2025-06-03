@@ -19,6 +19,7 @@ On the DMOG cluster, the OpenFOAM module can be loaded using the following comma
 
 .. note::
    The default version of OpenFOAM is 22.06, but we also have 24.12 available. This can be loaded instead with:
+
    .. code-block:: bash
 
       module load apps/openfoamplus/24.12
