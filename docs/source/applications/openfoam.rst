@@ -16,6 +16,12 @@ On the DMOG cluster, the OpenFOAM module can be loaded using the following comma
 
    flight env activate gridware
    module load apps/openfoamplus
+
+.. note::
+   The default version of OpenFOAM is 22.06, but we also have 24.12 available. This can be loaded with:
+
+   .. code-block:: bash
+      module load apps/openfoamplus/24.12
    
 Once you have loaded the module, you can run OpenFOAM applications using the 
 standard OpenFOAM command line interface. Here are a couple of example 
