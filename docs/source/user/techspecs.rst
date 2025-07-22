@@ -9,7 +9,7 @@ Home directories are shared via NFS.
 
 CPU compute nodes
 -----------------
-There are two types of standard compute nodes available on the DMOG HPC cluster:
+There are three types of standard compute nodes available on the DMOG HPC cluster:
 
 Large Memory Nodes
 ~~~~~~~~~~~~~~~~~~
