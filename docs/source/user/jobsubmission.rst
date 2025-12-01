@@ -27,6 +27,7 @@ Serial job
 
    ################# Part-1 Slurm directives ####################
    ## Working dir
+   ## SBATCH -D /users/abc123/example/path
    ## Environment variables
    #SBATCH --export=ALL
    ## Output and Error Files
@@ -76,6 +77,7 @@ Shared memory job
    
    ################# Part-1 Slurm directives ####################
    ## Working dir
+   ## SBATCH -D /users/abc123/example/path
    ## Environment variables
    #SBATCH --export=ALL
    ## Output and Error Files
@@ -128,6 +130,7 @@ Parallel (mpi) job
    
    ################# Part-1 Slurm directives ####################
    ## Working dir
+   ## SBATCH -D /users/abc123/example/path
    ## Environment variables
    #SBATCH --export=ALL
    ## Output and Error Files
@@ -198,6 +201,7 @@ GPU job
 
    ################# Part-1 Slurm directives ####################
    ## Working dir
+   ## SBATCH -D /users/abc123/example/path
    ## Environment variables
    #SBATCH --export=ALL
    ## Output and Error Files
