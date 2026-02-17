@@ -9,7 +9,7 @@ Home directories are shared via NFS.
 
 CPU compute nodes
 -----------------
-There are three types of CPU compute nodes available on the DMOG HPC cluster:
+There are three types of CPU compute node available on the DMOG HPC cluster:
 
 Low Core Count Nodes
 ~~~~~~~~~~~~~~~~~~
