@@ -11,21 +11,19 @@ CPU compute nodes
 -----------------
 There are three types of standard compute nodes available on the DMOG HPC cluster:
 
-Large Memory Nodes
+Low Core Count Nodes
 ~~~~~~~~~~~~~~~~~~
 
-There are ten large memory nodes.
-Each large memory node contains two 2.6 GHz, 32-core AMD EPYC 7513 processors and 
-512GB of RAM. Hyperthreading is disabled by default, but the processors support it 
-if needed. A local SSD disk of 1TB is available on the nodes. There are a total of 
-ten compute nodes of this type.
-These nodes are well-suited for memory-intensive workloads.
+There are ten low core count nodes.
+Each node contains two 2.6 GHz, 32-core AMD EPYC 7513 processors and 
+1TB of RAM. Hyperthreading is disabled by default, but the processors support it 
+if needed. A local SSD disk of 1TB is available on the nodes.
 
 Medium Core Count Nodes
 ~~~~~~~~~~~~~~~~~~~~~~
 
 There are five medium core count nodes. 
-Each node is equipped with two 2.3GHz, 48-core AMD EPYC 7643 processors and 256GB of RAM. 
+Each node is equipped with two 2.3GHz, 48-core AMD EPYC 7643 processors and 1TB of RAM. 
 Hyperthreading is disabled on these nodes. A local SSD disk is available for high throughput. 
 These nodes are well-suited for CPU-intensive workloads.
 
@@ -33,7 +31,7 @@ High Core Count Nodes
 ~~~~~~~~~~~~~~~~~~~~~~
 
 There are six high core count nodes available. 
-Each node is equipped with two 2.45GHz, 64-core AMD EPYC 7763 processors and 1024GB of RAM. 
+Each node is equipped with two 2.45GHz, 64-core AMD EPYC 7763 processors and 1TB of RAM. 
 Hyperthreading is disabled on these nodes. A local SSD disk is available for high throughput. 
 These nodes are well-suited for highly parellelised, CPU-intensive workloads.
 
@@ -42,7 +40,7 @@ GPU compute nodes
 
 The DMOG HPC cluster includes 22 compute nodes equipped with GPU cards. 
 Each node is equipped with 2 Nvidia A40 (48GB) cards, 2 32-core AMD EPYC 7543 32-Core Processor, 
-and 256GB of RAM. These nodes are well-suited for workloads that require significant GPU 
+and 512GB of RAM. These nodes are well-suited for workloads that require significant GPU 
 computing resources, such as deep learning, or artificial intelligence.
 
 Storage
