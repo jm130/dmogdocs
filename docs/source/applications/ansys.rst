@@ -40,9 +40,11 @@ Here is an example of a full submission script for Ansys Fluent (provided by Ass
     #-------------------------------
     source "${flight_ROOT:-/opt/flight}"/etc/setup.sh
     # Load modules
+    flight start
     flight env activate gridware
-    module load apps/ansys
-
+    #Load required Ansys version
+    module load apps/ansys/2024.2 
+    #module load apps/ansys/2025.2
 
     #===========================
     #  Create results directory
